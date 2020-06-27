@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <title>Users manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/vue-material.css" />
+  <script type="text/javascript" src="libs/vue.js"></script>
+  <script type="text/javascript" src="libs/vue-material.js"></script>
+  <script type="text/javascript" src="libs/axios.js"></script>
+  <script type="text/javascript" src="src/users-service.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <div class="title">Shoes</div>
+
+    <p style="text-align: center" v-if="shoes.length == 0">No shoes found</p>
+
+    <ul class="user-list" v-if="shoes.length > 0">
+      <li>
+        <div class="user-row-header">
+          <div class="user-name">Name</div>
+          <div class="user-city">Brand</div>
+        </div>
+      </li>
+
+      <li v-for="shoe in shoes">
+        <div class="">
+          <a :href="'details.html?id='+shoe.id" style="width: 24%;display: inline-block" >{{ shoe.name }}</a>
+          <span class="" style="width: 24%;display: inline-block"><i>{{ shoe.brand }}</i></span>
+          <button v-on:click="deleteShoe(shoe.id)" style="width: 24%;display: inline-block">Delete</button>
+          <a :href="'update.html?id='+shoe.id" target="_self" style="width: 24%;display: inline-block; text-align:center">Update</a>
+        </div>
+      </li>
+    </ul>
+    <div class="" style="text-align: center">
+    <a :href="'new.html'">ADD A NEW SHOE </a>
+  </div>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+
+</html>

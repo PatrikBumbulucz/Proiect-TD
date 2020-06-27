@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Authentic",
+        "brand": "Vans",
+        "color": "Black",
+        "size": "44",
+        "material": "Canvas",
+        "year": "2020",
+        "price": "39.99 EUR"
+    },
+    {
+        "id": 2,
+        "name": "Chima Ferguson",
+        "brand": "Vans",
+        "color": "Black/True White",
+        "size": "43",
+        "material": "Suede",
+        "year": "2017",
+        "price": "42.99 EUR"
+    },
+    {
+        "id": 3,
+        "name": "Classic Slip-On",
+        "brand": "Vans",
+        "color": "Grey",
+        "size": "41",
+        "material": "Canvas",
+        "year": "2016",
+        "price": "28.99 EUR"
+    },
+    {
+        "id": 4,
+        "name": "Era",
+        "brand": "Vans",
+        "color": "Black",
+        "size": "45",
+        "material": "Textile",
+        "year": "2019",
+        "price": "44.99 EUR"
+    },
+    {
+        "id": 5,
+        "name": "Janoski",
+        "brand": "Nike",
+        "color": "Black",
+        "size": "45",
+        "material": "Suede",
+        "year": "2020",
+        "price": "69.99 EUR"
+    },
+    {
+        "id": 6,
+        "name": "Tonik",
+        "brand": "DC",
+        "color": "Brown",
+        "size": "40",
+        "material": "Canvas",
+        "year": "2020",
+        "price": "36.99 EUR"
+    },
+    {
+        "id": 7,
+        "name": "Trase",
+        "brand": "DC",
+        "color": "Red",
+        "size": "42",
+        "material": "Suede",
+        "year": "2016",
+        "price": "33.99 EUR"
+    },
+    {
+        "id": 8,
+        "name": "Forest Grove",
+        "brand": "Adidas",
+        "color": "Navy-Blue",
+        "size": "41",
+        "material": "Canvas",
+        "year": "2017",
+        "price": "48.99 EUR"
+    },
+    {
+        "id": 9,
+        "name": "Jameson 2 Eco",
+        "brand": "Etnies",
+        "color": "Grey",
+        "size": "41.5",
+        "material": "Textile",
+        "year": "2015",
+        "price": "44.99 EUR"
+    },
+    {
+        "id": 10,
+        "name": "Topaz",
+        "brand": "Element",
+        "color": "Green",
+        "size": "42",
+        "material": "Canvas",
+        "year": "2014",
+        "price": "52.99 EUR"
+    }
+]

@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lucida Console', Monaco, monospace;
+  }
+
+#details {
+    width: 45%;
+    margin: 0 auto 0 auto;
+  }
+
+.container {
+    display:flex;
+    background-color: #1DB954;
+    padding:1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+    margin: auto;
+}
+
+.label {
+    padding:20px;
+    flex:1;
+    background-color:white;
+    text-align: center;
+}
+
+.value {
+    padding: 20px;
+    background-color: #1DB954;
+    flex:1;
+    text-align: center;
+}

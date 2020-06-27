@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/new.css" />
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+</head>
+
+<body>
+    <a href="index.html">Home</a>
+    <div id="new">
+        <h1>Add a new pair of shoes</h1>
+        <label>Name</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label>Brand</label>
+        <input type="text" id="brand" name="brand"><br><br>
+        <label>Color</label>
+        <input type="text" id="color" name="color"><br><br>
+        <label>Size</label>
+        <input type="text" id="size" name="size"><br><br>
+        <label>Material</label>
+        <input type="text" id="material" name="material"><br><br>
+        <label>Year</label>
+        <input type="text" id="year" name="year"><br><br>
+        <label>Price</label>
+        <input type="text" id="price" name="price"><br><br>
+        <button v-on:click="addShoe()">Add</button>
+
+    </div>
+    <script src="src/new.js"></script>
+</body>
+
+</html>

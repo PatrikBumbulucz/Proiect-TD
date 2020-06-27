@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/update.css" />
+        <script type="text/javascript" src="libs/vue.js"></script>
+        <script type="text/javascript" src="libs/axios.js"></script>
+    </head>
+    <body>
+        <a href="index.html" style="font-family: 'Lucida Console', Monaco, monospace;">Home</a>
+        <div id="update">
+            Actualizare pantof cu id-ul: {{ id }} <br>
+            <div class="label">Name:</div>
+            <input type="text" v-model="shoe.name"><br><br>
+            <div class="label">Brand:</div>
+            <input type="text" v-model="shoe.brand"><br><br>
+            <div class="label">Color:</div>
+            <input type="text" v-model="shoe.color"><br><br>
+            <div class="label">Size:</div>
+            <input type="text" v-model="shoe.size"><br><br>
+            <div class="label">Material:</div>
+            <input type="text" v-model="shoe.material"><br><br>
+            <div class="label">Year:</div>
+            <input type="text" v-model="shoe.year"><br><br>
+            <div class="label">Price:</div>
+            <input type="text" v-model="shoe.price"><br><br>
+            <button  v-on:click="update(shoe.id)" style="background-color: #1DB954; font-family: 'Lucida Console', Monaco, monospace; font-size: medium;">Save</button>
+
+            <p>{{message}}</p>
+
+        </div>
+
+        <script src="src/update.js"></script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/details.css" />
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+</head>
+
+<body>
+    <a href="index.html">Home</a>
+    <div id="details">
+        <h1 style="text-align: center;">Details for the product with the id: {{ id }}</h1>
+        <div class="container">
+            <div class="custom"></div>
+            <div class="label">Name:</div>
+            <div class="value">{{shoe.name}}</div>
+            <div class="label">Brand:</div>
+            <div class="value">{{shoe.brand}}</div>
+        </div>
+        <div class="label">Color:</div>
+        <div class="value">{{shoe.color}}</div>
+        <div class="label">Size:</div>
+        <div class="value">{{shoe.size}}</div>
+        <div class="label">Material:</div>
+        <div class="value">{{shoe.material}}</div>
+        <div class="label">Year:</div>
+        <div class="value">{{shoe.year}}</div>
+        <div class="label">Price:</div>
+        <div class="value">{{shoe.price}}</div>
+    </div>
+    </div>
+    <script src="src/details.js"></script>
+</body>
+
+</html>

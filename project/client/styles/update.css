@@ -1,0 +1,10 @@
+body {
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 25;
+  }
+
+#update {
+    width: 45%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
